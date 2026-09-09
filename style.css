@@ -83,11 +83,14 @@ section > ul > li > ul > li {
 
 /* Links */
 a {
-    color: #0077b5 /* LinkedIn Blue */
+    color: #0077b5; /* LinkedIn Blue */
+    font-weight: bold;
+    text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    font-weight: bolder;
 }
 
 /* Footer */
