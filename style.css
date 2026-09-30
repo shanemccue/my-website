@@ -86,10 +86,19 @@ a {
     color: #0077b5; /* LinkedIn Blue */
     font-weight: bold;
     text-decoration: none;
+    transition: color 0.2s ease, border-color 0.2s ease;
+    border-bottom: 2px solid transparent;
 }
 
 a:hover {
-    font-weight: bolder;
+    color: #004471; /* Darker Blue */
+    border-bottom-color: #004471; /* Underline will appear when hovering over link */
+}
+
+a:focus {
+    /* Allows people navigating site using their keyboard to get the same effect as hovering with the cursor */
+    color: #004471;
+    border-bottom-color: #004471;
 }
 
 /* Footer */
